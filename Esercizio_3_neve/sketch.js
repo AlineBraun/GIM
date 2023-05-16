@@ -1,47 +1,44 @@
-let x, y; // variabili per posizione della pallina
-let diametro = 20; // diametro della pallina
-let velocitaX, velocitaY; // velocità di movimento
-let bordoSinistro, bordoDestro, bordoSuperiore, bordoInferiore; // definizione dei bordi del rettangolo
-
-let colorePallina; // colore della pallina
+let flakes = [];
+let windSpeed = 0.1;
 
 function setup() {
-  createCanvas(600, 400);
-  x = random(diametro, width - diametro); // posizione iniziale x casuale
-  y = random(diametro, height - diametro); // posizione iniziale y casuale
-  velocitaX = random(-5, 5); // velocità iniziale x casuale
-  velocitaY = random(-5, 5); // velocità iniziale y casuale
-
-  bordoSinistro = 0; // bordo sinistro del rettangolo
-  bordoDestro = width; // bordo destro del rettangolo
-  bordoSuperiore = 0; // bordo superiore del rettangolo
-  bordoInferiore = height; // bordo inferiore del rettangolo
-
-  colorePallina = color(255, 0, 0); // colore iniziale della pallina (rosso)
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-  background(220);
-
-  // spostamento della pallina
-  x += velocitaX;
-  y += velocitaY;
-
-  // verifica dei bordi del rettangolo
-  if (x + diametro / 2 > bordoDestro || x - diametro / 2 < bordoSinistro) {
-    velocitaX *= -1;
-    colorePallina = color(random(255), random(255), random(255)); // cambia colore quando tocca il bordo laterale
+  background(0);
+  
+  // Genera un nuovo fiocco di neve in modo casuale
+  if (random() < 800) {
+    let flake = {
+      x: random(width),
+      y: 0,
+      size: random(2, 8),
+      speed: random(1, 7),
+      drift: random(-0.1, 1) // Aggiunge la deriva del vento al fiocco di neve
+    };
+    flakes.push(flake);
   }
-  if (y + diametro / 2 > bordoInferiore || y - diametro / 2 < bordoSuperiore) {
-    velocitaY *= -1;
-    colorePallina = color(random(255), random(255), random(255)); // cambia colore quando tocca il bordo superiore o inferiore
+  
+  // Muove e disegna i fiocchi di neve esistenti
+  for (let i = flakes.length - 1; i >= 0; i--) {
+    let flake = flakes[i];
+    
+    // Se il fiocco di neve non si è ancora depositato
+    if (flake.y + flake.size / 2 < height) {
+      flake.y += flake.speed;
+      flake.x += windSpeed + flake.drift; // Aggiunge la velocità del vento e la deriva al fiocco di neve
+    }
+    
+    // Disegna il fiocco di neve
+    fill(255);
+    noStroke();
+    ellipse(flake.x, flake.y, flake.size, flake.size);
+    
+    // Verifica se il fiocco di neve ha raggiunto il fondo dello schermo
+    if (flake.y + flake.size / 2 >= height) {
+      flake.y = height - flake.size / 2; // Posiziona il fiocco di neve esattamente sul fondo
+      flake.speed = 0; // Ferma il movimento del fiocco di neve
+    }
   }
-
-  // disegna il rettangolo
-  fill(220);
-  rect(bordoSinistro, bordoSuperiore, bordoDestro - bordoSinistro, bordoInferiore - bordoSuperiore);
-
-  // disegna la pallina
-  fill(colorePallina);
-  ellipse(x, y, diametro, diametro);
 }
