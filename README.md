@@ -1,7 +1,6 @@
 # GIM
 Esercizi di grafica in movimento (2023)
 
-[clicca qui](/nome/file.html)
 
  ## Esercizio 1A
 
@@ -20,5 +19,4 @@ Esercizi di grafica in movimento (2023)
 
 ## Esercizio 3
 
-[pioggia](/Esercizio_3/1_pioggia/pioggia.html)  
-
+[pioggia](/Esercizio_3_pioggia/pioggia.html)
