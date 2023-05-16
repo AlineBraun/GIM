@@ -1,7 +1,6 @@
 # GIM
 Esercizi di grafica in movimento (2023)
 
-[clicca qui](/nome/file.html)
 
  ## Esercizio 1A
 
