@@ -17,3 +17,8 @@ Esercizi di grafica in movimento (2023)
  ## Esercizio 2A
  
 [parole](/Esercizio_2A/index.html)
+
+## Esercizio 3
+
+[pioggia](/Esercizio_3/1_pioggia/index.html)  
+
