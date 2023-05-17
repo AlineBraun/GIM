@@ -11,15 +11,17 @@ Esercizi di grafica in movimento (2023)
 [aperto_chiuso_2](/Esercizio_1A/aperto_chiuso_2.html)   
 [aperto_chiuso_3](/Esercizio_1A/aperto_chiuso_3.html)   
 [spostamento_2](/Esercizio_1A/spostamento_2.html)  
-[spostamento_3](/Esercizio_1A/spostamento_3.html)  
+[spostamento_3](/Esercizio_1A/spostamento_3.html) 
+
 
  ## Esercizio 2A
  
-[parole](/Esercizio_2A/index.html)
+ [parole](/Esercizio_2A/index.html)
+ 
 
 ## Esercizio 3
 
-[pong](/Esercizio_3_pong/pong.html)  
+[pong](/Eservizio_3_pong/pong.html)  
 [pioggia](/Esercizio_3_pioggia/pioggia.html)  
 [neve](/Esercizio_3_neve/neve.html)
 
