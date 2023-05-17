@@ -19,4 +19,5 @@ Esercizi di grafica in movimento (2023)
 
 ## Esercizio 3
 
-[pioggia](/Esercizio_3_pioggia/pioggia.html)
+[pioggia](/Esercizio_3_pioggia/pioggia.html)  
+[neve](/Esercizio_3_neve/neve.html)
