@@ -25,7 +25,7 @@ Esercizi di grafica in movimento (2023)
  [parole](/Esercizio_2A/index.html)  
 
 
-## Esercizio 2B 
+## Esercizio 2B  
 
 [Parola animata](/Esercizio_2B/indexA.html)  
 
