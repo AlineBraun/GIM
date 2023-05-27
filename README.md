@@ -17,12 +17,12 @@ Esercizi di grafica in movimento (2023)
 
  ## Esercizio 1B  
  
- [Dittico](/Esercizio_1B/dittico.html)
+[Dittico](/Esercizio_1B/dittico.html)
  
 
  ## Esercizio 2A  
  
- [parole](/Esercizio_2A/index.html)  
+[parole](/Esercizio_2A/index.html)  
 
 
 ## Esercizio 2B  
