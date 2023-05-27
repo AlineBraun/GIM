@@ -3,7 +3,7 @@
 Esercizi di grafica in movimento (2023)  
 
 
- ## Esercizio 1A  
+## Esercizio 1A  
 
 [acceso_spento_2](/Esercizio_1A/acceso_spento_2.html)  
 [acceso_spento_3](/Esercizio_1A/acceso_spento_3.html)   
@@ -15,12 +15,12 @@ Esercizi di grafica in movimento (2023)
 [spostamento_3](/Esercizio_1A/spostamento_3.html)   
 
 
- ## Esercizio 1B  
+## Esercizio 1B  
  
 [Dittico](/Esercizio_1B/dittico.html)
  
 
- ## Esercizio 2A  
+## Esercizio 2A  
  
 [parole](/Esercizio_2A/index.html)  
 
