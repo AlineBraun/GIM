@@ -40,7 +40,6 @@ Esercizi di grafica in movimento (2023)
 ## Esercizio 4  
 
 [orologio analogico](/Esercizio_4_orologio_analogico/orologio analogico.html)  
-
 Ho sviluppato un orologio basato sulle forme geometriche e i colori primari
 
 
